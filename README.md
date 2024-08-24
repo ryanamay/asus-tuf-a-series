@@ -1,12 +1,31 @@
 # macOS on ASUS TUF A15 FA506QM
-My configuration files and notes for running macOS on the ASUS TUF A15 FA506QM.
+My personal notes for running macOS on the ASUS TUF A15 FA506QM.
+
+> [!NOTE]
+> This guide is a work in progress, in its early stages and is mostly incomplete.
+
 ## Project Status
 <p align="center">
 
 | macOS | Version | Status |
 |--|--| -- |
-| Sequoia | `planned` beta 7 | planned |
-| Sonoma |`stable` 14.6 - latest | current |
+| macOS Sonoma | `14.6` - `latest` | current - `testing` |
+
+**Limitations**
+-  NVIDIA RTX 3060 Laptop is disabled due to lack of support for macOS.
+-  The stock OEM Storage is **not** compatible with macOS.
+-  There is no way to control the keyboard backlight as of this moment.
+
+**What works**
+- remind me to come back to this later
+
+**Known Issues**
+- [#235 ChefsKissInc/NootedRed](https://github.com/ChefKissInc/NootedRed/issues/235)
+- Speaker audio is distorted.
+- Boot failing 50% of the time. (Seems to be fixed, under investigation)
+  
+**Potential Improvements**
+-  A way to control keyboard backlight hopefully
 
 </p>
 
@@ -59,22 +78,3 @@ BIOS Firmware Version: `310`
 </p>
 
 </details>
-
-## Status
-  - [ ] Sleep and Wake
-  - [ ] Power Management
-  - [ ] Hibernation
-  - [ ] Battery Support
-  - [ ] Backlight Control
-  - [ ] HDMI Out
-  - [ ] HDMI Audio
-  - [ ] Keyboard Function Keys
-  - [ ] Speakers
-  - [ ] NVRAM Native Support
-  - [ ] Camera
-  - [ ] USB Port Mapping
-  - [ ] Touchpad
-  - [ ] Display: Color Profile
-  
-  ### Not Supported
-- Thunderbolt 3
