@@ -5,11 +5,29 @@ My personal notes for running macOS on the ASUS TUF A15 FA506QM.
 > This guide is a work in progress, in its early stages and is mostly incomplete.
 
 ## Project Status
-<p align="center">
 
 | macOS | Version | Status |
 |--|--| -- |
 | macOS Sonoma | `14.6` - `latest` | current - `testing` |
+
+**Model Compatibility**
+
+Theoretically speaking, this should also be compatible with the following models, please report back if you have tested it on any of these models.
+| Model Number | Status |
+|--|--|
+| FA506QM | `working` |
+| FX506II | `unknown` |
+| FX506IV | `unknown` |
+| FA506NF | `unknown` |
+| FA506ICB | `unknown` |
+| FA706QM | `working` |
+| FX706II | `unknown` |
+| FX706IU | `unknown` |
+
+
+
+
+
 
 **Limitations**
 -  NVIDIA RTX 3060 Laptop is disabled due to lack of support for macOS.
@@ -27,10 +45,7 @@ My personal notes for running macOS on the ASUS TUF A15 FA506QM.
 **Potential Improvements**
 -  A way to control keyboard backlight hopefully
 
-</p>
-
 ## Laptop Configuration
-<p align="center">
 
 | **Specifications** | **Details** |
 |--|--|
@@ -45,8 +60,6 @@ My personal notes for running macOS on the ASUS TUF A15 FA506QM.
 | **Storage*** | MSI M390 1TB <br> Transcend TS128GMTE110S 128GB |
 | **Audio** | Realtek ALC256 |
 
-</p>
-
 <sub> * This is not part of the original configuration of the laptop</sub>
 
 BIOS Firmware Version: `310`
@@ -57,7 +70,7 @@ BIOS Firmware Version: `310`
 
 
 
-> [!WARNING] 
+> [!WARNING]
 > The included OEM Storage is **not** compatible with macOS and will result in a Kernel Panic even with the NVMEFix kext. You will need to replace it with a compatible one.
 
 <p align="center">
